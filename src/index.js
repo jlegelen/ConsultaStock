@@ -8,6 +8,8 @@ import configureStore from './ConfigureStore';
 
 const store = configureStore();
 
+console.log("Comenzandoooooooooooo");
+
 ReactDOM.render(
     <Provider store={store}>
         <Home />
